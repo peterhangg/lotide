@@ -35,5 +35,5 @@ const letterPositions = str => {
 };
 
 // // TEST CODE
-// console.log(letterPosition("lighthouse in the house"));
-assertArraysEqual(letterPositions("hello").e, [1]);
+console.log(letterPositions("lighthouse in the house"));
+assertArraysEqual(letterPositions("hello").h, [0]);
