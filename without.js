@@ -25,3 +25,15 @@ const without = (arr1, arr2) => {
 
 assertArraysEqual(without([1, 2, 3], [1]),[2, 3]) // => [2, 3]
 assertArraysEqual(without(["1", "2", "3"], [1, 2, "3"]), ["1", "2"]) // => ["1", "2"]
+
+// alternative
+
+// const without = (arr1, arr2) => {
+  // let result = [];
+  // for (let i = 0; i < arr1.length; i++) {
+  //   if(arr1[i] !== arr2[i]){
+  //     result.push(arr1[i]);
+  //   }
+  // }
+  // return result;
+// }
