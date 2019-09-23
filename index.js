@@ -1,9 +1,12 @@
 const head   = require('./head');
 const tail   = require('./tail');
 const middle = require('./middle');
+const findKey = require('./findKey');
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle
+  head,
+  tail,
+  middle,
+  findKey
 };
+
