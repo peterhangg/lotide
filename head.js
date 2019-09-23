@@ -2,9 +2,9 @@
 
 const head = (arr) => {
   for (let i = 0; i < arr.length; i++) {
-    return arr[0];  
+    return arr[0];
   }
-}
+};
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
